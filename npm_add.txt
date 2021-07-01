@@ -1,0 +1,4 @@
+axios
+js-cookie
+vue-router
+vuex

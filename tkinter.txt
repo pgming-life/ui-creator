@@ -1,0 +1,112 @@
+"""Tkinter.pyw"""
+
+import tkinter as tk
+import tkinter.ttk
+import tkinter.font as f
+
+# GUIアプリケーション
+class GuiApplication(tk.Frame):
+    # コンストラクタ
+    def __init__(self, master=None):
+        window_width =
+        window_height =
+        self.label1_height =
+        self.label1_x =
+        self.label1_y =
+        self.inputbox1_width =
+        self.inputbox1_height =
+        self.inputbox1_x =
+        self.inputbox1_y =
+        self.listbox1_width =
+        self.listbox1_height =
+        self.listbox1_x =
+        self.listbox1_y =
+        self.button1_width =
+        self.button1_height =
+        self.button1_x =
+        self.button1_y =
+        
+        # Frameクラスを継承
+        super().__init__(
+            master,
+            width=window_width,
+            height=window_height,
+            )
+        
+        # 初期値代入
+        self.master = master
+        self.master.title("Tkinter")
+        self.master.minsize(
+            window_width,
+            window_height,
+            )
+        self.pack()
+        
+        # ウィジェット作成
+        self.create_widgets()
+        
+    # ウィジェット作成
+    def create_widgets(self):
+        # ラベル作成
+        self.label1_font = f.Font(
+            family=u'MSゴシック',
+            size=self.label1_height,
+            )
+        self.label1 = tk.Label(
+            text="Label1",
+            )
+        self.label1.configure(
+            font=self.label1_font,
+            )
+        self.label1.place(
+            x=self.label1_x,
+            y=self.label1_y,
+            )
+        
+        # インプットボックス作成
+        self.inputbox1_font = f.Font(
+            family=u'MSゴシック',
+            size=self.inputbox1_height,
+            )
+        self.inputbox1 = tk.Entry(self)
+        self.inputbox1.configure(
+            font=self.inputbox1_font,
+            )
+        self.inputbox1.place(
+            width=self.inputbox1_width,
+            height=self.inputbox1_height,
+            x=self.inputbox1_x,
+            y=self.inputbox1_y,
+            )
+        
+        # リストボックス作成
+        self.listbox1 = tk.Listbox(self)
+        self.listbox1.place(
+            width=self.listbox1_width,
+            height=self.listbox1_height,
+            x=self.listbox1_x,
+            y=self.listbox1_y,
+            )
+        data = ["ListBox1", "...", "...", "..."]
+        for i in data:
+            self.listbox1.insert(
+                tk.END,
+                "{}\n".format(i)
+                )
+        
+        # ボタン作成
+        self.button = tk.ttk.Button(
+            self,
+            text="Button1",
+            )
+        self.button.place(
+            width=self.button1_width,
+            height=self.button1_height,
+            x=self.button1_x,
+            y=self.button1_y,
+            )
+
+# アプリケーション起動
+window = tk.Tk()
+app = GuiApplication(master=window)
+app.mainloop()

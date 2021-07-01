@@ -1,0 +1,4 @@
+django==2.2.5
+djangorestframework
+whitenoise==3.3.1
+pytz

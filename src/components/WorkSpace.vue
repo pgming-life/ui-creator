@@ -670,6 +670,7 @@ export default {
 }
 
 .buttonresizable {
+  background-color: rgb(233, 233, 233);;
   background-position: center;
   border: 1px solid slategray;
 }

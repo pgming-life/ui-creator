@@ -12,7 +12,7 @@
           簡単にUIを作成してプログラムコードとして出力しダウンロードすることができます。<br>
           現在は、PythonGUIの一つであるTkinterを対象にしていますが、<br>
           今後とも扱うUIの数を増やしていく予定です。<br><br>
-          本作品のオープンソース:<br>
+          オープンソース:<br>
           <a href="https://github.com/pgming-life/ui-creator" target="_blank" rel="noopener">https://github.com/pgming-life/ui-creator</a>
         </strong>
       </div>

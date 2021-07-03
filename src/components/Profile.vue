@@ -40,6 +40,8 @@ export default {
 
 .content {
   background-color: rgba(255,255,255,.2);
+  border: 1px solid;
+  border-color: darkorange;
   border-radius: .25em;
   box-shadow: 0 0 .25em rgba(0,0,0,.25);
   box-sizing: content-box;

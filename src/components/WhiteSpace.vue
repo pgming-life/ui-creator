@@ -11,7 +11,7 @@ export default {
     return {
       cols: 0,
       rows: 0,
-      colors: [240, 255, 255, 255, 255, 255, 255, 255, 255, 255],
+      colors: [240, 255, 255, 255, 255, 255, 255, 255, 255],
     }
   },
   methods: {
@@ -30,7 +30,7 @@ export default {
       this.context.closePath();
     },
     getColor: function(){
-      return this.colors[(Math.floor(Math.random() * 10))];
+      return this.colors[(Math.floor(Math.random() * 9))];
     },
     drawBackground: function(){
       var x = this.cols;
@@ -49,7 +49,7 @@ export default {
       me.drawRectangle(x * 48, y * 48, this.getColor());
       setTimeout(function(){
         me.animate.call(me);
-      }, 10);
+      }, 7);
     },
   },
   mounted() {

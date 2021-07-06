@@ -17,3 +17,4 @@ Please feel free to join us.:four_leaf_clover:
 >Frontend
 * Node.js
 * Vue CLI 3
+* Vuetify

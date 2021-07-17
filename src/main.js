@@ -8,16 +8,16 @@ import vuetify from './plugins/vuetify'
 // https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd
 Vue.config.devtools = true;
 
-// true の場合の方が開発者向けのメッセージがコンソールによりたくさん出る
+// true > issue a developer message on the console.
 Vue.config.productionTip = true;
 
-// Vueアプリケーションを起動
+// run Vue application
 const vue = new Vue({
-  vuetify,              // UIクリエイト
-  router,               // SPAルーティング
+  vuetify,              // create UI
+  router,               // SPA route
   store,
-  render: h => h(App)   // Appコンポーネントを使用
+  render: h => h(App)   // rendering App component
 })
 
-// idがappであるDOMにマウント
+// mount #appID on DOM
 vue.$mount('#app')

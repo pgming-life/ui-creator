@@ -1,5 +1,5 @@
 from django.contrib import admin
 from .models import BaseModel
 
-# ベースモデルをadminに登録
+# register the BaseModel with admin
 admin.site.register(BaseModel)

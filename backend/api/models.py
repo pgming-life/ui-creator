@@ -1,7 +1,7 @@
 from django.db import models
 from rest_framework import serializers
 
-# ベースモデル
+# model
 class BaseModel(models.Model):
     name_key = models.CharField(max_length=10, verbose_name='name_key')
     stack_key = models.CharField(max_length=20, verbose_name='stack_key')
@@ -10,7 +10,7 @@ class BaseModel(models.Model):
     left = models.PositiveIntegerField()
     top = models.PositiveIntegerField()
 
-# ベース設定
+# serializer
 class BaseSerializer(serializers.ModelSerializer):
     class Meta:
         model = BaseModel

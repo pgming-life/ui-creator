@@ -77,7 +77,7 @@
                 </div>
               </div>
             </v-col>
-            <!-- 動的タグ追加(コンポーネント) -->
+            <!-- add dynamic tags (components) -->
             <v-col
               v-for="(rate, num) in labelStack"
               :key="num"
@@ -246,7 +246,7 @@
               <div class="block">
                 <div class="drag-container-titlebar">Tkinter</div>
                 <div class="table-container">
-                  <!-- 動的タグ追加(コンポーネント) -->
+                  <!-- add dynamic tags (components) -->
                   <Label
                     v-for="(rate, num) in labelStack"
                     :key="num"
@@ -367,7 +367,7 @@ import Label from './widgets/Label';
 import InputBox from './widgets/InputBox';
 import ListBox from './widgets/ListBox';
 import Button from './widgets/Button';
-// ウィジェットコンポーネント追加
+// add widget components
 
 export default {
   name: 'WorkSpace',
@@ -379,7 +379,7 @@ export default {
     InputBox,
     ListBox,
     Button,
-    // ウィジェットコンポーネント追加
+    // add widget components
   },
   data() {
     return {

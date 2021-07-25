@@ -17,14 +17,14 @@ Please feel free to join us.:four_leaf_clover:
 ## Includes
 
 **Git:**  
-Download->https://git-scm.com/download
+Download-> https://git-scm.com/download
 ```
 $ mkdir ui-creator
 $ git clone --depth 1 https://github.com/pgming-life/ui-creator.git ui-creator
 ```
 
 **Backend:**
-* Python(https://www.python.org/downloads/)
+* Python (https://www.python.org/downloads/)
 * Django
 ```
 $ pip install Django==2.2.5
@@ -35,7 +35,7 @@ $ pip install djangorestframework==3.12.4
 ```
 
 **Frontend:**
-* Node.js(https://nodejs.org/en/download/)
+* Node.js (https://nodejs.org/en/download/)
 * Vue CLI 3
 ```
 $ npm install -g @vue/cli
@@ -52,8 +52,8 @@ $ vue add vuetify
 * Python3.8.2
 * Django
 * Django REST framework
-* SQLite3 - development(virtualenv)
-* PostgreSQL - release(psycopg2)
+* SQLite3 - development (virtualenv)
+* PostgreSQL - release (psycopg2)
 * Node.js
 * Vue CLI 3
 * Vuetify

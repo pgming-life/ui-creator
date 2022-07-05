@@ -82,7 +82,15 @@
         <v-row justify="center">
           <strong>随時、拡張予定ですのでお楽しみに。</strong>
         </v-row>
-        <br><br><br>
+        <v-row justify="center">
+          <strong>現在は、PythonGUIの一つであるTkinterを対象にしていますが、<br>
+          今後とも扱うUIの数を増やしていく予定です!</strong>
+        </v-row>
+        <v-row justify="center">
+          <strong>GitHub-OSS:</strong><br>
+          <a href="https://github.com/pgming-life/ui-creator" target="_blank" rel="noopener">https://github.com/pgming-life/ui-creator</a>
+          <br><br><br>
+        </v-row>
         <h2>やり方を覚えたら「WORKSPACE」へレッツゴー！！</h2>
       </div>
     </div>

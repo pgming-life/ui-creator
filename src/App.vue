@@ -51,7 +51,6 @@ export default {
     links: [
       { text: "PROCESS", route: "/" },
       { text: "WORKSPACE", route: "/workspace" },
-      { text: "PROFILE", route: "/profile" },
     ],
   }),
 };
